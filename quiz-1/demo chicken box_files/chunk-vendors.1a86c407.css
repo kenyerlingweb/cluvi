@@ -8,11 +8,8 @@
 
  .row {
   display: grid;
-  /* justify-items: center; */
-  /* justify-content: center; */
   row-gap: 0.5rem;
  }
-
  
  .v-application--is-ltr .offset-sm-3 {
   margin: 0;
@@ -22,20 +19,34 @@
   max-width: 600px;
 }
 
-.container img{
-  width: 30vw;
+.v-btn:not(.v-btn--round).v-size--large {
+  height: 50px;
 }
 
-.social-networks-view h3 {
-  font-size: 2rem;
-  color: #f9df93!important;
+
+.v-btn:hover {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 80%);
 }
 
-.buttons-social-networks {
-    color: #f9df93;
+.v-btn {
+  border-radius: 17px;
+  box-shadow: 0 1px 3px #4a1113;
 }
 
- /* TOCO PONERLE VARIOS MEDIA PQ ELLOS TIENEN MUCHOS MEDIAS DE MUCHOS TAMAÑOS. ENTONCES DE ESTA MANERA NO CAMBIA EN NINGUNA DE LAS PANTALLAS EL TAMAÑO */
+.v-btn--block {
+  min-width: 98%!important;
+  margin: 0 auto;
+}
+
+.v-btn:before {
+  background-color: #fff;
+}
+
+.v-btn--block:hover {
+  min-width: 100%!important;
+}
+
+/* con col-12 todas las colums ocupan el 100% de el contenedor papa */
 
  @media screen and (min-width: 600px) {
   .col-12 {
@@ -49,26 +60,3 @@
 }
 
 
- /* @media screen and (min-width: 820px) {
-
-  .container {
-    max-width: 600px;
-  }
-  
-  .col-12 {
-    max-width: initial;
-  }
- } */
-
- /* @media screen and  (min-width: 1264px) {
-    .container {
-      max-width: 600px;
-    }
-  
- }
-
- @media screen and ((min-width: 1904px)) {
-  .container {
-    max-width: 600px;
-  }
- } */

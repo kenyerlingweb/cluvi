@@ -1,4 +1,60 @@
-.row {
-  display: grid;
-  row-gap: 0.5;
+/********************** esta va en el file que se llama chuck **********************/
+
+.social-networks-view h3 {
+  font-size: 2rem;
+  color: #f9df93!important;
+}
+
+.v-btn>.v-btn__content .v-icon.fa:hover {
+  color: #f9df93;
+  font-size: 35px;
+  transition: ease-in-out 0.3s;
+}
+
+/* cuando un estilo que ustedes pusieron tiene importantyo tengo que ponerle
+ imoortant tambien pq si no el estilo no aplica */
+
+.linktree-logo[data-v-0a80adb4] {
+  max-width: 16rem!important ;
+}
+
+.main-supplier-select[data-v-0a80adb4] {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .linktree-logo[data-v-0a80adb4] {
+    max-width: 25rem!important ;
   }
+}
+
+/********************** esta va en el file que  comienza con app chuck **********************/
+
+
+.social-networks-view h3 {
+  font-size: 2rem;
+  color: #f9df93!important;
+}
+
+.v-btn>.v-btn__content .v-icon.fa:hover {
+  color: #f9df93;
+  font-size: 35px;
+  transition: ease-in-out 0.3s;
+}
+
+/* cuando un estilo que ustedes pusieron tiene importantyo tengo que ponerle
+ imoortant tambien pq si no el estilo no aplica */
+
+.linktree-logo[data-v-0a80adb4] {
+  max-width: 16rem!important ;
+}
+
+.main-supplier-select[data-v-0a80adb4] {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .linktree-logo[data-v-0a80adb4] {
+    max-width: 25rem!important ;
+  }
+}
