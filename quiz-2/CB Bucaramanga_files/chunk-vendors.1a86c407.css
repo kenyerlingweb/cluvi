@@ -32,11 +32,68 @@
   }
 } */
 
+/* .v-application > .pl-1  {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+} */
+
+/* .v-application .d-flex {
+  display: grid!important;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+.title-category {
+  margin-left: 1.1rem;
+}
+
 .v-image__image, .v-image__placeholder {
   width: 100%;
 }
+
+.v-application .mb-2 {
+  /* margin-bottom: 0!important; */
+  padding-right: 2rem;
+}
+
+/* imagen de cocacola cuando le dan click */
+
+.product-view .v-image__image, .product-view .v-image__placeholder {
+  top: 1px;
+  height: 300px;
+}
+
+.d-flex {
+  margin-right: 0.5rem;
+}
+
+.my-2 {
+  color: #941F25;
+}
+
+.product-card {
+  width: unset;
+}
+
+.menu-sticky {
+  position: unset!important;
+}
+
+.product-card-subtitle p {
+  display: none;
+}
+
+
+@media screen and (min-width: 979px) {
+  .v-application .primary {
+    background-color: #F6D789;
+  }
+
+}
+
   @media screen and (min-width: 979px) {
   .v-image__image, .v-image__placeholder {
     width: 97.4%;
   }
 }
+
