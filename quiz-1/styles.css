@@ -11,8 +11,6 @@
   transition: ease-in-out 0.3s;
 }
 
-/* cuando un estilo que ustedes pusieron tiene importantyo tengo que ponerle
- imoortant tambien pq si no el estilo no aplica */
 
 .linktree-logo[data-v-0a80adb4] {
   max-width: 16rem!important ;
@@ -42,9 +40,6 @@
   transition: ease-in-out 0.3s;
 }
 
-/* cuando un estilo que ustedes pusieron tiene importantyo tengo que ponerle
- imoortant tambien pq si no el estilo no aplica */
-
 .linktree-logo[data-v-0a80adb4] {
   max-width: 16rem!important ;
 }
@@ -58,3 +53,4 @@
     max-width: 25rem!important ;
   }
 }
+
