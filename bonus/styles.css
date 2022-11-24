@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  display: grid;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+.header p {
+  font-size: 1.3rem;
+}
+.box {
+  display: grid;
+  row-gap: 1.5rem;
+}
+.box article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #e0e0e0;
+  border-radius: 7px 7px 0 0;
+  grid-column: 1 / -1;
+  border: 1px solid #c4c2c2 ;
+  padding: 0.6rem ;
+  margin: 0;
+}
+
+.box div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-column: 1 / -1;
+  border: 1px solid #c4c2c2 ;
+  margin: 0;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
+}
+
+ .box-order-scheduled {
+  display: grid;
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
+  -moz-column-gap: 0.2rem;
+       column-gap: 0.2rem;
+  padding-left: 0.5rem;
+  grid-column: 1 / -1;
+  padding-top: 0.5rem;
+
+}
+
+.box article div p, .box .box-order-scheduled  {
+  padding-left: 1rem;
+  margin: 0;
+}
+.box article div > p {
+  padding: 0.6rem 1rem;
+}
+.box article div .price {
+  justify-self: end;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+.box .box-order-scheduled {
+  align-items: center;
+}
+
+.box article div span > p {
+  padding-left: 0.5rem;
+}
+
+.box article div .pedir-mas-btn, .box article div .ver-detalles-btn {
+  justify-self: end;
+  padding-right: 1rem;
+  font-size: 0.9rem;
+  padding-bottom: 0.8rem;
+  color: #7336BC;
+}
+
+.box .time {
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  color: #858383;
+}
+
+.border-botton {
+  border-radius: 0 0 7px 7px;
+}
+
+.box article div .ver-detalles-btn {
+  color: #000;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
