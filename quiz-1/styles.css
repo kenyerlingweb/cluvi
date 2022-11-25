@@ -1,29 +1,56 @@
 /********************** esta va en el file que se llama chuck **********************/
 
-.social-networks-view h3 {
-  font-size: 2rem;
-  color: #f9df93!important;
+.row {
+  display: grid;
+  row-gap: 0.5rem;
+ }
+ 
+ .v-application--is-ltr .offset-sm-3 {
+  margin: 0;
+ }
+
+ .container {
+  max-width: 600px;
 }
 
-.v-btn>.v-btn__content .v-icon.fa:hover {
-  color: #f9df93;
-  font-size: 35px;
-  transition: ease-in-out 0.3s;
+.v-btn:not(.v-btn--round).v-size--large {
+  height: 50px;
 }
 
 
-.linktree-logo[data-v-0a80adb4] {
-  max-width: 16rem!important ;
+.v-btn:hover {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 80%);
 }
 
-.main-supplier-select[data-v-0a80adb4] {
-  min-height: 100vh;
+.v-btn {
+  border-radius: 17px;
+  box-shadow: 0 1px 3px #4a1113;
 }
 
-@media screen and (min-width: 600px) {
-  .linktree-logo[data-v-0a80adb4] {
-    max-width: 25rem!important ;
+.v-btn--block {
+  min-width: 98%!important;
+  margin: 0 auto;
+}
+
+.v-btn:before {
+  background-color: #fff;
+}
+
+.v-btn--block:hover {
+  min-width: 100%!important;
+}
+
+/* con col-12 todas las colums ocupan el 100% de el contenedor papa */
+
+ @media screen and (min-width: 600px) {
+  .col-12 {
+    max-width: 100%;
   }
+
+  .social-networks-view h3 {
+    font-size: 1.5rem;
+  }
+
 }
 
 /********************** esta va en el file que  comienza con app chuck **********************/

@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
 
+:root {
+  /* used for text */
+  --clr-primary-light: #FAFAFA;
+  --clr-primary-white: #fff; 
+  --clr-primary-gray-medium: #e0e0e0;
+  --clr-primary-gray-light: #c4c2c2;
+  --clr-primary-gray-dark: #858383;
+  --clr-primary-black: #000;
+  --clr-primary-purple: #7336BC;
+
+}
+
 body {
   margin: 0;
   padding: 1.5rem;
-  background-color: #FAFAFA;
+  background-color: var(--clr-primary-light);
   font-family: 'Roboto', sans-serif;
 }
 .header {
@@ -16,7 +28,7 @@ h1 {
 }
 
 .header p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .box {
   display: grid;
@@ -25,16 +37,16 @@ h1 {
 .box article {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #fff;
+  background-color: var(--clr-primary-white) ;
 }
 
 h2 {
   font-size: 1rem;
   font-weight: bold;
-  background-color: #e0e0e0;
+  background-color: var(--clr-primary-gray-medium) ;
   border-radius: 7px 7px 0 0;
   grid-column: 1 / -1;
-  border: 1px solid #c4c2c2 ;
+  border: 1px solid var(--clr-primary-gray-light) ;
   padding: 0.6rem ;
   margin: 0;
 }
@@ -44,7 +56,7 @@ h2 {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-column: 1 / -1;
-  border: 1px solid #c4c2c2 ;
+  border: 1px solid var(--clr-primary-gray-light) ;
   margin: 0;
   grid-template-rows: -webkit-min-content;
   grid-template-rows: min-content;
@@ -90,13 +102,13 @@ h2 {
   padding-right: 1rem;
   font-size: 0.9rem;
   padding-bottom: 0.8rem;
-  color: #7336BC;
+  color: var(--clr-primary-purple) ;
 }
 
 .box .time {
   padding-left: 1rem;
   font-size: 0.9rem;
-  color: #858383;
+  color: var(--clr-primary-gray-dark) ;
 }
 
 .border-botton {
